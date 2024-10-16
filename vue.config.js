@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/sample/'
+publicPath: process.env.NODE_ENV === "production" ? "/sample/" : "/",
 }
